@@ -17,8 +17,8 @@ export default function Header() {
 
           <Nav>
             <NavLink href="/">Home</NavLink>
-            <NavLink href="/animes">Animes</NavLink>
-            <NavLink href="/animes/novo">Cadastrar</NavLink>
+            <NavLink href="/animes">Animes 2000</NavLink>
+            <NavLink href="/animes/novo">Cadastrar novo usuário</NavLink>
 
             <LoginButton onClick={() => setShowLogin(true)}>
               <FaUserCircle size={26} />
